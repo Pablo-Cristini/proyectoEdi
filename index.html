@@ -7,7 +7,6 @@
     <meta name="author" content="" />
     <title>Proyecto Edi</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
  
 </head>
@@ -26,7 +25,6 @@
         </div>
     </nav>
 
-    <!-- Page content-->
     <div class="container-sm mt-4 back">
         <h1 class="titulo">Roberto Piagginni Fotografía</h1>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -51,35 +49,38 @@
             </button>
         </div>
 
-        <!-- Sección Mis Producciones -->
         <div id="mis-producciones" class="contenedor-imagenes mt-5">
             <h3 class="titulo">Mis Producciones</h3>
-            <div class="row align-items-center mt-4">
-                <div class="card col bg-dark" style="width: 18rem;">
-                    <img src="./assets/evento.jpg" class="card-img-top mt-2" alt="Eventos">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Eventos</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card bg-dark h-100">
+                        <img src="./assets/evento.jpg" class="card-img-top mt-2" alt="Eventos">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Eventos</h5>
+                            <p class="card-text">Capturo momentos únicos en eventos y celebraciones privadas, creando recuerdos visuales inolvidables.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col bg-dark" style="width: 18rem;">
-                    <img src="./assets/publicidad.jpg" class="card-img-top mt-2" alt="Publicidad">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Publicidad</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col">
+                    <div class="card bg-dark h-100">
+                        <img src="./assets/publicidad.jpg" class="card-img-top mt-2" alt="Publicidad">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Publicidad</h5>
+                            <p class="card-text">Producciones fotográficas para campañas publicitarias, destacando marcas y productos con imágenes creativas y profesionales.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col bg-dark" style="width: 18rem;">
-                    <img src="./assets/iceberg.jpg" class="card-img-top mt-2" alt="Privado">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Privado</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col">
+                    <div class="card bg-dark h-100">
+                        <img src="./assets/iceberg.jpg" class="card-img-top mt-2" alt="Privado">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Privado</h5>
+                            <p class="card-text">Ofrezco servicios de fotografía privada, capturando momentos personales con discreción y calidad profesional.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Sección Galería -->
         <div id="galeria" class="galeria mt-5">
             <h3 class="titulo">Galería</h3>
             <div class="row">
@@ -99,15 +100,12 @@
         </div>
 
     </div>
-    <footer class="bg-dark text-white text-center py-4">
+    <footer class="bg-dark text-white text-center py-2">
       <div class="container">
-        <p class="mb-1">© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p class="mb-1">© Roberto Piagginni Fotografía. Todos los derechos reservados.</p>
         <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#" class="text-white">Política de Privacidad</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#" class="text-white">Términos de Uso</a>
           </li>
           <li class="list-inline-item">
             <a href="#" class="text-white">Contacto</a>
@@ -124,13 +122,14 @@
             <i class="bi bi-instagram"></i>
           </a>
         </div>
+        <div>
+            <img src="./assets/whatsapp-color-svgrepo-com.svg" class="iconos" alt="whatsapp icon" />
+            <img src="./assets/instagram-svgrepo-com (1).svg" class="iconos" alt="instagram icon" />
+        </div>
       </div>
     </footer>
-    
 
-    <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS -->
     <script src="js/scripts.js"></script>
 </body>
 </html>
