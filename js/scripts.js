@@ -5,3 +5,14 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+document.getElementById('miFormulario').addEventListener('submit', function (e) {
+  e.preventDefault();
+  
+  Swal.fire({
+    title: 'Formulario enviado',
+    text: '¡Tu formulario se ha enviado con éxito!',
+    icon: 'success',
+    confirmButtonText: 'Aceptar'
+  });
+});
