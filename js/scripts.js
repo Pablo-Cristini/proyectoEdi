@@ -36,13 +36,13 @@ document.getElementById('miFormulario').addEventListener('submit', function (e) 
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
-  const clockElement = document.getElementById("clock");
+  const reloj = document.getElementById("hora");
 
-  function updateClock() {
+  function darHora() {
       const now = new Date();
-      clockElement.textContent = `Hora actual: ${now.toLocaleTimeString()}`;
+      reloj.textContent = `Hora actual: ${now.toLocaleTimeString()}`;
   }
 
-  setInterval(updateClock, 1000);
-  updateClock();
+  setInterval(darHora, 1000);
+  darHora();
 });
